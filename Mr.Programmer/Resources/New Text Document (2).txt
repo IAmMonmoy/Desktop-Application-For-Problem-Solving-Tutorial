@@ -1,0 +1,50 @@
+What will happen if in a C program you assign a value to an array element whose subscript exceeds the size of array?
+The element will be set to 0.
+The compiler would report an error.
+The program may crash if some important data gets overwritten.
+The array size would appropriately grow.
+What does the following declaration mean? int (*ptr)[10];
+ptr is array of pointers to 10 integers
+ptr is a pointer to an array of 10 integers
+ptr is an array of 10 integers
+ptr is an pointer to array
+In C, if you pass an array as an argument to a function, what actually gets passed?
+Value of elements in array
+First element of the array
+Base address of the array
+Address of the last element of array
+In which numbering system can the binary number 1011011111000101 be easily converted to?
+Decimal system
+Hexadecimal system
+Octal system
+No need to convert
+Which bitwise operator is suitable for turning off a particular bit in a number?
+&& operator
+& operator
+|| operator	
+! operator
+Which bitwise operator is suitable for turning on a particular bit in a number?
+&& operator	
+& operator
+|| operator	
+| operator
+7.Which of the following function sets first n characters of a string to a given character?
+strinit()	
+strnset()
+strset()	
+strcset()
+8.If the two strings are identical, then strcmp() function returns
+-1	
+1
+0	
+Yes
+9.How will you print \n on the screen?
+printf("\n");	
+echo "\\n";
+printf('\n');	
+printf("\\n");
+10. The library function used to find the last occurrence of a character in a string is
+strnstr()	
+laststr()
+strrchr()	
+strstr()

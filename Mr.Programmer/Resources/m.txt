@@ -1,0 +1,23 @@
+http://cpbook.subeen.com/
+BINOMIAL EXPONENTION By Monmoy
+#include <bits/stdc++.h>
+using namespace std;
+int func(int a,int b)
+{
+	if(b == 1)
+		return a;
+	if(b%2!=0)
+		return a*func(a,b-1);
+	else
+	{
+		int x = func(a,b/2);
+		return x*x;
+	}
+}
+int main()
+{
+	int a,b,c;
+	scanf("%d %d",&a,&b);
+	cout<<func(a,b);
+	return 0;
+}
